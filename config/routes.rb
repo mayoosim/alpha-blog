@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'about', to: 'pages#about'
-  get 'home', to: 'pages#home'   # optional, if you also want /home to work
+  get 'home', to: 'pages#home'  
 
   root 'pages#home'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
