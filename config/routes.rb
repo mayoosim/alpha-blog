@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   get 'home', to: 'pages#home'  
-  resources :articles, only:[:show]
+  resources :articles, only:[:show, :index, :new, :create, :edit, :update]
   root 'pages#home'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
