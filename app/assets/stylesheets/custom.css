@@ -1,0 +1,46 @@
+
+
+.navbar {background-color: black !important;
+    }
+.nav-link {color: white !important;
+    }
+#logo {
+    float: left;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+    color: white !important;
+    }
+#home-container {
+    background-color: beige;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+.jumbotron {
+    background-image: url('logo.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    }
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#page-content {
+    flex: 1 0 auto;
+    background-color: lightgray;
+}
+#sticky-footer {
+    flex-shrink: 0;
+    }
